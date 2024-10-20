@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="lemonade">
+    <html lang="en" data-theme="light">
       <body className={inter.className}>
         {children}
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

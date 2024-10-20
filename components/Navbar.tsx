@@ -6,13 +6,13 @@ const Navbar = () => {
   return (
     <div className="navbar bg-slate-200">
       <div className="flex-1">
-        <button className="btn btn-ghost text-xl">RV</button>
+        <button className="btn btn-ghost text-xl">FS .</button>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li className="mx-2">
           <Link
-           href={"https://github.com/MODSetter"}
+           href={"https://github.com/faridnotfnd"}
            className="btn btn-error"
            rel="noopener noreferrer" 
            target="_blank"

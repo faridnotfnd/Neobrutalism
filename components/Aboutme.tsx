@@ -12,13 +12,7 @@ const Aboutme = () => {
             data-aos="fade-left"
             className="relative h-64 overflow-hidden border-4 border-black shadow-[6px_6px_0_0_#000] transition hover:shadow-none sm:h-full lg:order-last lg:h-full rounded-3xl aos-init aos-animate"
           >
-            <Image
-              alt="Party"
-              src={mepic}
-              width={1200}
-              height={1200}
-              className="inset-0 h-full w-full object-cover"
-            />
+
           </div>{" "}
           <div className="lg:py-24" data-svelte-h="svelte-m8hwe5">
             <h2
