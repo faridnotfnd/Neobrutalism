@@ -20,16 +20,6 @@ const Navbar = () => {
             <FaGithubSquare size={30}/> GitHub
            </Link>
           </li>
-          <li className="mx-2">
-          <Link
-           href={"https://www.linkedin.com/in/rohan-verma-sde/"}
-           className="btn btn-error"
-           rel="noopener noreferrer" 
-           target="_blank"
-           >
-            <FaLinkedin size={30}/> LinkedIn
-           </Link>
-          </li>
         </ul>
       </div>
     </div>
