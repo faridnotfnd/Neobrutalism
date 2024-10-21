@@ -41,7 +41,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className="text-text dark:text-darkText relative mx-auto h-full w-[700px] max-w-full p-8 md:p-16 xl:w-[1400px]">
-        <div className="mb-12 w-full xl:absolute xl:mb-0 xl:w-[500px]">
+        <div className="mb-12 mt-20 w-full xl:absolute xl:mb-0 xl:w-[500px]">
           <img
             className="border-border dark:border-darkBorder h-28 w-28 rounded-full border-2 xl:h-[184px] xl:w-[184px]"
             src="/components/images/profile.jp"
@@ -54,11 +54,12 @@ export default function Home() {
             </h2>
             <p className="mt-6 text-base font-base sm:text-xl">
               Vocational high school student from
-              <br />SMKN 1 Banjar
+              <br />
+              SMKN 1 Banjar
             </p>
           </div>
         </div>
-        <div className="justify-end xl:flex">
+        <div className="justify-end xl:flex mt-20">
           <div
             id="grid-container"
             className="text-text dark:text-text grid w-full grid-cols-2 gap-10 md:grid-cols-3 xl:w-1/2 xl:pb-16 w450:grid-cols-1 w450:gap-7"

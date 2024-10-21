@@ -12,6 +12,10 @@ body {
   min-height: 100dvh;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   --sb-track-color: #ffffff;
   --sb-thumb-color: #000000;
