@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import { FaGithubSquare } from "react-icons/fa";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,12 +9,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#f8fdef] px-4 sm:px-8 py-4">
+    <nav className="bg-[#ffff] px-4 sm:px-8 py-6">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex-1">
-          <button className="btn btn-ghost text-xl sm:text-2xl text-black rounded-lg px-4 sm:px-20 py-2">
-            FS .
-          </button>
+          {/* <button className="btn btn-ghost text-xl sm:text-2xl text-black rounded-lg px-4 sm:px-20 py-2">
+              FS .
+            </button> */}
         </div>
         <div className="flex-none">
           {/* Hamburger menu for mobile */}
@@ -39,7 +38,7 @@ const Navbar = () => {
           <ul className="hidden lg:flex menu menu-horizontal px-1 mr-0 sm:mr-[140px] text-base sm:text-lg font-medium space-x-4 sm:space-x-8">
             <li>
               <Link
-                href="#about"
+                href="#About"
                 scroll={false}
                 className="text-gray-600 hover:text-black"
               >
@@ -78,11 +77,11 @@ const Navbar = () => {
       </div>
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="lg:hidden absolute top-16 left-0 right-0 bg-[#f8fdef] z-10">
+        <div className="lg:hidden absolute top-12 left-0 right-0 bg-[#ffff] z-10">
           <ul className="py-2 px-4">
             <li>
               <Link
-                href="#about"
+                href="#About"
                 scroll={false}
                 className="block py-2 text-gray-600 hover:text-black"
               >
@@ -100,7 +99,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="#my-work"
+                href="#Education"
                 scroll={false}
                 className="block py-2 text-gray-600 hover:text-black"
               >

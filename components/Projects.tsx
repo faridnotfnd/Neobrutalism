@@ -3,11 +3,9 @@ import Card from "./Card";
 import portfolio from "./images/portfolio.png";
 import freshmart from "./images/freshmart.png";
 import landingpage from "./images/Thumbnail.png";
-import cfc from "./images/cfct.png";
+import portfolioo from "./images/portfolioo.png";
 import bankfifo from "./images/Home.png";
 import mading from "./images/mading.png";
-
-import nextblog from "./images/nextblog.png";
 
 const Projects = () => {
   return (
@@ -87,16 +85,14 @@ const Projects = () => {
             />
 
             <Card
-              date={"Oct 2018"}
-              imgsrc={cfc}
+              date={"Oct 2024"}
+              imgsrc={portfolioo}
               desc={
-                "A SEO-optimized website which leveraged incentive CPA affiliate networks and BlackHat SEO techniques to generate maximum profit. Was on the first page of Google for a year on multiple search terms, generating 5K page views per day and nearly 40x ROI."
+                "This second portfolio was created because I felt my first portfolio was too flat."
               }
-              link={
-                "https://web.archive.org/web/20210125225725/http://clashforacure.org/"
-              }
-              title={"ClashForACure"}
-              techused="WordPress, BlackHat SEO, OnPage SEO, Off-Page SEO"
+              link={""}
+              title={"PortfolioV2"}
+              techused="Next.js, Typescript"
             />
           </div>
         </div>

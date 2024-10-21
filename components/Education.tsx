@@ -3,7 +3,7 @@ import React from "react";
 const Education = () => {
   return (
     <section id="Education">
-      <div className="bg-[#c4fdff] text-black py-8 lg:px-20 border-4 border-black md:mx-10 rounded-3xl">
+      <div className="bg-[#53f2fc] text-black py-8 lg:px-20 border-4 border-black md:mx-10 rounded-3xl">
         <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
           <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
             <h1 className="text-4xl md:text-5xl font-bold text-black heading_font">
@@ -22,7 +22,7 @@ const Education = () => {
                   data-aos-easing="linear"
                   data-aos-duration="1500"
                 >
-                  <div className="order-1 w-full md:w-5/6 px-4 py-12 border-4 border-black shadow-[6px_6px_0_0_#000] transition hover:shadow-none bg-white rounded-3xl">
+                  <div className="order-1 w-full md:w-5/6 px-4 py-12 border-4 border-black shadow-[6px_6px_0_0_#000] transition hover:shadow-none bg-white rounded-base">
                     <span className="mb-3 text-base text-red-900">
                       July 2019 - June 2022
                     </span>
@@ -42,7 +42,7 @@ const Education = () => {
                   data-aos-easing="linear"
                   data-aos-duration="1500"
                 >
-                  <div className="order-1 w-full md:w-5/6 px-4 py-12 border-4 border-black shadow-[6px_6px_0_0_#000] transition hover:shadow-none bg-white rounded-3xl">
+                  <div className="order-1 w-full md:w-5/6 px-4 py-12 border-4 border-black shadow-[6px_6px_0_0_#000] transition hover:shadow-none bg-white rounded-base">
                     <span className="mb-3 text-base text-cyan-900">
                       July 2022 - Present
                     </span>

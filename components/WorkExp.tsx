@@ -3,7 +3,7 @@ import React from "react";
 const WorkExp = () => {
   return (
     <section id="Work">
-      <div className="bg-[#fbffc3] text-black py-8 lg:px-20 border-4 border-black md:mx-10 rounded-3xl">
+      <div className="bg-[#807dfa] text-black py-8 lg:px-20 border-4 border-black md:mx-10 rounded-3xl">
         <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
           <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
             <h1
@@ -26,7 +26,7 @@ const WorkExp = () => {
                   data-svelte-h="svelte-1oza2m"
                 >
                   <div className="order-1 w-auto"></div>{" "}
-                  <div className="order-1 w-5/6 px-4 py-12 border-4 border-black shadow-[6px_6px_0_0_#000] transition hover:shadow-none bg-white rounded-3xl">
+                  <div className="order-1 w-5/6 px-4 py-12 border-4 border-black shadow-[6px_6px_0_0_#000] transition hover:shadow-none bg-white rounded-base">
                     <span className="mb-3 text-base text-blue-900">
                       July 2024 - Sept 2024
                     </span>{" "}
@@ -35,15 +35,14 @@ const WorkExp = () => {
                     </h4>{" "}
                     <h5 className="mb-4 font-semibold text-xs md:text-lg">
                       Mobile Apps Developer
-
                     </h5>{" "}
                     <div className="text-sm md:text-base leading-snug tetx-900 text-opacity-100 gap-4 flex flex-col p-4">
                       <ul className="list-disc">
                         <li>
-                          I interned at Prilude Studio as a mobile apps Developer,
-                          where I gained hands-on experience in developing
-                          mobile applications using modern programming languages
-                          and tools.
+                          I interned at Prilude Studio as a mobile apps
+                          Developer, where I gained hands-on experience in
+                          developing mobile applications using modern
+                          programming languages and tools.
                         </li>
                         <li>
                           During my internship at Prilude Studio, I collaborated
