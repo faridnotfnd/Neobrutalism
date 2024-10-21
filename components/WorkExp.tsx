@@ -13,7 +13,7 @@ const WorkExp = () => {
               Work Experience
             </h1>{" "}
             <span className="text-gray-900 text-xl lg:text-2xl mt-4 mb-6 md:mb-8">
-              Valuable experience with a <br /> variety of clients.
+              Actually, this is an internship/practical work experience
             </span>
           </div>{" "}
           <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
@@ -28,60 +28,40 @@ const WorkExp = () => {
                   <div className="order-1 w-auto"></div>{" "}
                   <div className="order-1 w-5/6 px-4 py-12 border-4 border-black shadow-[6px_6px_0_0_#000] transition hover:shadow-none bg-white rounded-3xl">
                     <span className="mb-3 text-base text-blue-900">
-                      Apr 2021 - Aug 2023
+                      July 2024 - Sept 2024
                     </span>{" "}
                     <h4 className="mb-1 text-2xl md:text-5xl text-blue-900 heading_font font-bold">
-                      Infosys
+                      Prilude Studio
                     </h4>{" "}
                     <h5 className="mb-4 font-semibold text-xs md:text-lg">
-                      Specialist Programmer
+                      Mobile Apps Developer
+
                     </h5>{" "}
                     <div className="text-sm md:text-base leading-snug tetx-900 text-opacity-100 gap-4 flex flex-col p-4">
                       <ul className="list-disc">
                         <li>
-                          Built custom full-stack CRM with React.js & PostgreSQL for Fortune 500 electric utilities company, boosting sales team productivity by 35% and cutting costs by 92% over Salesforce CRM.
+                          I interned at Prilude Studio as a mobile apps Developer,
+                          where I gained hands-on experience in developing
+                          mobile applications using modern programming languages
+                          and tools.
                         </li>
                         <li>
-                          Developed a Batch Framework in SpringBoot for a banking application, reducing code implementation time for future modules by nearly 87%.
+                          During my internship at Prilude Studio, I collaborated
+                          with the development team to create efficient mobile
+                          apps, enhancing my skills in coding, debugging, and
+                          UI/UX design.
                         </li>
                         <li>
-                          Re-architected legacy Java-based Backend (Apache Struts 2) to modern architectural framework (SpringBoot) for a Fortune 500 automotive company, increasing throughput, scalability, security & performance by 63%.
+                          At Prilude Studio, I worked as a mobile programmer
+                          intern, learning to solve complex programming
+                          challenges and improving the functionality of mobile
+                          applications across various platforms.
                         </li>
                         <li>
-                          Led junior developer teams on two separate occasions to successfully deliver the MVPs of the new full-stack projects for a Fortune 500 oil industry company.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>{" "}
-                <div
-                  className="mb-8 flex justify-between items-center w-full right-timeline aos-init"
-                  data-aos="fade-up"
-                  data-svelte-h="svelte-1uuoo4c"
-                >
-                  <div className="order-1 w-auto"></div>{" "}
-                  <div className="order-1 w-5/6 px-4 py-12 border-4 border-black shadow-[6px_6px_0_0_#000] transition hover:shadow-none bg-white rounded-3xl">
-                    <span className="mb-3 text-base text-red-900">
-                      May 2019 - Mar 2021
-                    </span>{" "}
-                    <h4 className="mb-1 text-2xl md:text-5xl text-red-900 heading_font font-bold">
-                      Infosys
-                    </h4>{" "}
-                    <h5 className="mb-4 font-semibold text-xs md:text-lg">
-                      System Engineer Specialist
-                    </h5>{" "}
-                    <div className="text-sm md:text-base leading-snug tetx-900 text-opacity-100 gap-4 flex flex-col p-4">
-                      <ul className="list-disc">
-                        <li>
-                          Developed REST-based microservices in a Spring Boot project to automate the initiation of instant refunds for canceled/returned products, leading to a remarkable 60% reduction in manual effort. Involved integrating APIs with dependent services.
-                        </li>
-                        <li>
-                          Implemented highly available, fault-tolerant, and scalable event-driven architecture using Apache Kafka for analyzing and processing
-                          transactions in banking application, reducing manual monitoring by 33%.
-                        </li>
-                        <li>
-                          Created GitLab CI/CD pipelines for cloud-native containerized microservices using Docker, enabling automated builds, testing, and
-                          deployments to Kubernetes, facilitating zero-downtime rolling updates.
+                          My internship at Prilude Studio involved mobile app
+                          development, where I utilized programming languages
+                          like Java and Kotlin to deliver user-friendly,
+                          feature-rich mobile applications.
                         </li>
                       </ul>
                     </div>

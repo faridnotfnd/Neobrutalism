@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link
            href={"https://github.com/faridnotfnd"}
            className="btn btn-error"
-           rel="noopener noreferrer" 
+           rel="noopener noreferrer"
            target="_blank"
            >
             <FaGithubSquare size={30}/> GitHub

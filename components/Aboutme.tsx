@@ -44,7 +44,7 @@ const Aboutme = () => {
               href="mailto:fariducer@gmail.com"
               data-aos="fade-right"
               data-aos-duration="1500"
-              className="justify-center gap-2 rounded-full border-4 border-black bg-[#FFB2EF] px-12 py-4 font-semibold shadow-[6px_6px_0_0_#000] transition hover:shadow-none text-xl aos-init"
+              className="justify-center gap-2 rounded-full border-4 border-black bg-[#8bd3dd] px-12 py-4 font-semibold shadow-[6px_6px_0_0_#000] transition hover:shadow-none text-xl aos-init"
               target="_blank"
               rel="noreferrer"
             >

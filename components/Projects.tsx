@@ -1,9 +1,11 @@
 import React from "react";
 import Card from "./Card";
-import gptinsta from "./images/PORTFOL.png";
+import portfolio from "./images/portfolio.png";
+import freshmart from "./images/freshmart.png";
+import landingpage from "./images/Thumbnail.png";
 import cfc from "./images/cfct.png";
-import neoui from "./images/neoproj2.png";
-import lcpic from "./images/lcproj2.png";
+import bankfifo from "./images/Home.png";
+import mading from "./images/mading.png";
 
 import nextblog from "./images/nextblog.png";
 
@@ -20,65 +22,79 @@ const Projects = () => {
               Projects
             </h2>{" "}
             <p className="text-xl lg:text-2xl text-gray-900 text-center">
-              A suite of side projects which I work on weekends :){" "}
+              Some projects I am working on for school assignments :){" "}
             </p>
           </div>{" "}
           <div
             className="grid grid-cols-1 place-items-center justify-between lg:grid-cols-3 gap-14 p-10"
             data-svelte-h="svelte-1swfby4"
           >
-{/* 
             <Card
-              date={"aUG 2024"}
-              imgsrc={gptinsta}
-              desc={"A GPT-based autonomous multi-agent AI in Next.js that research & recommends Instagram Viral Posts reflecting your personality."}
-              link={"https://github.com/MODSetter/gpt-instagram"}
-              title={"GPT-INSTAGRAM"}
-              techused="Next.js, Tailwind CSS, Shadcn, LangChain.js, LangGraph.js"
-            /> */}
+              date={"Jan 2024"}
+              imgsrc={portfolio}
+              desc={
+                "Due to the simplicity of my first portfolio, I decided to create a new one."
+              }
+              link={"https://faridsidik.netlify.app/"}
+              title={"Portfolio"}
+              techused="Html, Css"
+            />
 
             <Card
-              date={"July 2024"}
-              imgsrc={gptinsta}
-              desc={"A GPT-based autonomous multi-agent AI in Next.js that research & recommends Instagram Viral Posts reflecting your personality."}
-              link={"https://github.com/MODSetter/gpt-instagram"}
-              title={"GPT-INSTAGRAM"}
-              techused="Next.js, Tailwind CSS, Shadcn, LangChain.js, LangGraph.js"
+              date={"Dec 2023"}
+              imgsrc={freshmart}
+              desc={
+                "A significant school project summarizing what I’ve learned throughout the semester, aimed at showcasing my knowledge and skills."
+              }
+              link={"https://freshmartf.netlify.app/"}
+              title={"FreshMart"}
+              techused="Html, Css"
             />
 
             <Card
               date={"May 2024"}
-              imgsrc={nextblog}
-              desc={"Next-Blog is a out-of-box fast, SEO Friendly blogging based CMS supporting multiple themes, Notion like WYSIWYG editor with AI Assistant Writer, Modern Layouts ,Admin Dashboard and Custom Components."}
-              link={"https://github.com/MODSetter/next-blog"}
-              title={"Next-Blog"}
-              techused="Next.Js, Tailwind CSS, Tiptap, prosemirror, shadcn, zod, react-hook-forms, giscus, novel"
+              imgsrc={landingpage}
+              desc={
+                "This digital banking landing page was actually created as a final semester project at school. I also referenced it from the internet."
+              }
+              link={
+                "https://www.figma.com/design/cckw279xPAahykkt7ReIet/Farid-Sidik?node-id=0-1&t=YbWohSntzIUs1Jqt-1"
+              }
+              title={"Landing Page"}
+              techused="Figma"
             />
 
-
             <Card
-              date={"Jan 2024"}
-              imgsrc={neoui}
-              desc={"A simple neubrutalism-style portfolio website theme to create a visually appealing and responsive portfolio to showcases your achievements."}
+              date={"May 2024"}
+              imgsrc={bankfifo}
+              desc={
+                "Just like the previous landing page, this one was also created as a final semester project, so it's pretty much the same."
+              }
               link={"https://github.com/MODSetter/neubrutalism_portfolio"}
-              title={"Neubrutalism Portfolio"}
-              techused="Next.Js, Tailwind.css, Animate.css, AOS.css"
+              title={"Landing Page"}
+              techused="Figma"
             />
 
             <Card
-              date={"Nov 2023 - Present"}
-              imgsrc={lcpic}
-              desc={"A recipe recommender based on the ingredients you currently have. It is just a proof of concept for my Information Retrieval course. I have plans to release a better version in the future."}
-              link={"https://www.google.com"}
-              title={"LazyCook"}
-              techused="Flask, Scrapy, ElasticSearch, BootStrap"
+              date={"Jun 2024"}
+              imgsrc={mading}
+              desc={
+                "The website showcases school news, events, and articles, including teacher innovation contests, parent meetings, and program socialization."
+              }
+              link={"https://common-coming-soon-page.netlify.app/"}
+              title={"Bulletin Board"}
+              techused="Html, Css, PHP"
             />
 
             <Card
               date={"Oct 2018"}
               imgsrc={cfc}
-              desc={"A SEO-optimized website which leveraged incentive CPA affiliate networks and BlackHat SEO techniques to generate maximum profit. Was on the first page of Google for a year on multiple search terms, generating 5K page views per day and nearly 40x ROI."}
-              link={"https://web.archive.org/web/20210125225725/http://clashforacure.org/"}
+              desc={
+                "A SEO-optimized website which leveraged incentive CPA affiliate networks and BlackHat SEO techniques to generate maximum profit. Was on the first page of Google for a year on multiple search terms, generating 5K page views per day and nearly 40x ROI."
+              }
+              link={
+                "https://web.archive.org/web/20210125225725/http://clashforacure.org/"
+              }
               title={"ClashForACure"}
               techused="WordPress, BlackHat SEO, OnPage SEO, Off-Page SEO"
             />

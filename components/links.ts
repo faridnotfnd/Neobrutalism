@@ -67,19 +67,19 @@ const LINKS: { [key in SocialMedia]: Link } = {
     title: 'Ko-fi',
     icon: kofi,
     link: 'https://common-coming-soon-page.netlify.app/',
-    text: '@johndoe',
+    text: '@Cs',
   },
   readcv: {
     title: 'Read CV',
     icon: readcv,
     link: 'https://common-coming-soon-page.netlify.app/',
-    text: '@Farid Sidik',
+    text: 'Farid Sidik',
   },
   tiktok: {
     title: 'Tiktok',
     icon: tiktok,
     link: 'https://common-coming-soon-page.netlify.app/',
-    text: '@sxcsfaa',
+    text: '@Cs',
   },
   x: {
     title: 'X',

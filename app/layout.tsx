@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="light">
+    <html lang="en" data-theme="lemonade">
       <body className={`${inter.className} ${workSans.className}`}>
         <ThemeProvider attribute="class" disableTransitionOnChange>
           {children}
