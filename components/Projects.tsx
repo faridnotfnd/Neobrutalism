@@ -68,7 +68,7 @@ const Projects = () => {
               desc={
                 "Just like the previous landing page, this one was also created as a final semester project, so it's pretty much the same."
               }
-              link={"https://common-coming-soon-page.netlify.app/"}
+              link={"https://www.figma.com/design/qfaamh87RmVnDYgELPjg7s/Bank-Fifo?node-id=0-1&t=ZLPpkqibWwqFWK07-1"}
               title={"Landing Page"}
               techused="Figma"
             />
