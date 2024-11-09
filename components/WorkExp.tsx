@@ -3,7 +3,7 @@ import React from "react";
 const WorkExp = () => {
   return (
     <section id="Work">
-      <div className="bg-[#807dfa] text-black py-8 lg:px-20 border-4 border-black md:mx-10 rounded-3xl">
+      <div className="bg-[#88aaee] text-black py-8 lg:px-20 border-4 border-black md:mx-10 rounded-3xl">
         <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
           <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
             <h1

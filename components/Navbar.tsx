@@ -63,15 +63,6 @@ const Navbar = () => {
                 Project
               </Link>
             </li>
-            <li>
-              <Link
-                href="#my-work"
-                scroll={false}
-                className="text-gray-600 hover:text-black"
-              >
-                Education
-              </Link>
-            </li>
           </ul>
         </div>
       </div>
@@ -104,15 +95,6 @@ const Navbar = () => {
                 className="block py-2 text-gray-600 hover:text-black"
               >
                 Project
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#my-work"
-                scroll={false}
-                className="block py-2 text-gray-600 hover:text-black"
-              >
-                Education
               </Link>
             </li>
           </ul>

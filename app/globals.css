@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,6 +10,7 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   min-height: 100dvh;
 }
 
@@ -40,7 +42,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* .heading_font {
-  font-family: Stint Ultra Expanded,cursive;
+  font-family: 'Roboto', sans-serif;
 } */
 
 /* :root {

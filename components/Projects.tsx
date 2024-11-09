@@ -68,7 +68,7 @@ const Projects = () => {
               desc={
                 "Just like the previous landing page, this one was also created as a final semester project, so it's pretty much the same."
               }
-              link={"https://github.com/MODSetter/neubrutalism_portfolio"}
+              link={"https://common-coming-soon-page.netlify.app/"}
               title={"Landing Page"}
               techused="Figma"
             />
@@ -90,7 +90,7 @@ const Projects = () => {
               desc={
                 "This second portfolio was created because I felt my first portfolio was too flat."
               }
-              link={""}
+              link={"https://faridsidik.vercel.app/"}
               title={"PortfolioV2"}
               techused="Next.js, Typescript"
             />

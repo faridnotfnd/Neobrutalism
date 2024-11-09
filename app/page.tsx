@@ -18,6 +18,7 @@ const colors: string[] = [
   "#7df752", // Lime
   "#fa7fee", // Pink
   "#90EE90", // Light Green
+  "#DAF5F0",
 ];
 
 // Fungsi untuk mengacak array
@@ -39,18 +40,17 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
       <section id="About"></section>
       <section id="Education"></section>
       <div className="text-text dark:text-darkText relative mx-auto h-full w-[700px] max-w-full p-8 md:p-16 xl:w-[1400px]">
-        <div className="mb-12 mt-0 w-full xl:absolute xl:mb-0 xl:w-[500px]">
+      <div className="mb-12 mt-20 ml-0 xl:ml-0 xl:mt-20 w-full xl:absolute xl:mb-0 xl:w-[500px]">
           <img
-            className="border-border dark:border-darkBorder h-28 w-28 rounded-full border-2 xl:h-[184px] xl:w-[184px]"
+            className="border-border dark:border-darkBorder mx-auto xl:mx-0 h-28 w-28 rounded-full border-2 xl:h-[184px] xl:w-[184px]"
             src="/components/images/profile.jpg"
             alt="profile picture"
           />
 
-          <div className="mt-5">
+          <div className="mt-10 text-center xl:text-left">
             <h2 className="text-3xl font-heading sm:text-[44px]">
               Farid Sidik
             </h2>
@@ -61,14 +61,14 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="justify-end xl:flex mt-0">
+        <div className="justify-end mt-24 xl:flex xl:mt-20">
           <div
             id="grid-container"
             className="text-text dark:text-text grid w-full grid-cols-2 gap-10 md:grid-cols-3 xl:w-1/2 xl:pb-16 w450:grid-cols-1 w450:gap-7"
           >
             {Object.keys(LINKS).map((key, index) => (
               <a
-                className="border-border dark:border-darkBorder border-4 border-black shadow-[4px_4px_0_0_#000] dark:shadow-dark rounded-base border-2 p-5 transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none"
+                className="border-border dark:border-darkBorder border-black shadow-[4px_4px_0_0_#000] dark:shadow-dark rounded-base border-2 p-5 transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none"
                 key={key}
                 target="_blank"
                 href={LINKS[key].link}
@@ -97,7 +97,6 @@ export default function Home() {
         <Aboutme />
         <WorkExp />
         <Projects />
-        <Education />
         <Footer />
       </main>
     </>

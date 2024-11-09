@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="light" suppressHydrationWarning>
+    <html lang="en" data-theme="lemonade" suppressHydrationWarning>
       <body
         className={`${stintUltraExpanded.variable} ${workSans.variable} font-sans`}
       >

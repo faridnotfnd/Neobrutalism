@@ -2,10 +2,6 @@
 
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
-import Brutalist from "./images/Brutalist.png";
-import Brutalist2 from "./images/Brutalist2.png";
-import Brutalist3 from "./images/Brutalist3.png";
 
 const Resconnect = () => {
   return (
@@ -46,32 +42,6 @@ const Resconnect = () => {
           </Link>
         </div>
       </div>
-      {/* Shapes with Images */}
-        {/* <Image
-          src={Brutalist} // Menggunakan gambar Brutalist
-        alt="Brutalist Shape 1"
-        className="absolute top-10 left-10 w-32 h-32 "
-      />
-      <Image
-        src={Brutalist2} // Menggunakan gambar Brutalist
-        alt="Brutalist Shape 2"
-        className="absolute bottom-10 right-10 w-48 h-48 "
-      />
-
-      <Image
-        src={Brutalist3} // Menggunakan gambar Brutalist
-        alt="Brutalist Shape 3"
-        className="absolute top-[500px] left-1/4 w-24 h-24"
-      /> */}
-      <style jsx>{`
-        .clip-triangle {
-          width: 0;
-          height: 0;
-          border-left: 30px solid transparent;
-          border-right: 30px solid transparent;
-          border-bottom: 50px solid #d0021b;
-        }
-      `}</style>
     </section>
   );
 };
