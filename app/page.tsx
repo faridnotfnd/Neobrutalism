@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react";
 import Aboutme from "@/components/Aboutme";
-import Education from "@/components/Education";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
@@ -18,7 +17,6 @@ const colors: string[] = [
   "#7df752", // Lime
   "#fa7fee", // Pink
   "#90EE90", // Light Green
-  "#DAF5F0",
 ];
 
 // Fungsi untuk mengacak array

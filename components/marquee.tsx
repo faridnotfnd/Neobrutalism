@@ -48,10 +48,10 @@ export default function Marquee({ items }: { items: string[] }) {
   }, [scrollPos, isMobile]);
 
   return (
-    <div className="relative flex overflow-x-hidden border-b-4 border-t-4 border-black dark:border-darkBorder bg-[#DAF5F0] dark:bg-secondaryBlack text-text dark:text-darkText font-base">
+    <div className="relative flex overflow-x-hidden border-b-4 border-t-4 border-black dark:border-darkBorder bg-[#83d7dd] dark:bg-secondaryBlack text-text dark:text-darkText font-base">
       <div ref={marqueeRef} className="flex whitespace-nowrap py-12">
         {items.map((item) => (
-          <span key={item} className="mx-4 text-4xl">
+          <span key={item} className="mx-4 text-black text-4xl">
             {item}
           </span>
         ))}

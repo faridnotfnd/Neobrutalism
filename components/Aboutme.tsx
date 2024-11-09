@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import Marquee from "@/components/marquee";
-import { publicSans } from '../lib/fonts'; 
 
-const items = ["faridsidik.netlify.app corporation"];
+const items = ["Welcome to Farid Sidik's Portfolio | Software Engineering Student and Technology Enthusiast"];
 
 const Aboutme: React.FC = () => {
   useEffect(() => {
